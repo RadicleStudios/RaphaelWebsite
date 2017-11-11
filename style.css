@@ -1,0 +1,61 @@
+/**** Layout ****/
+
+* {
+  box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  max-width: 720px; }
+
+main {
+  padding: 12px; }
+
+img {
+  width: 100%; }
+
+hr {
+  clear: both;
+  margin: 0 12px;
+  border: 0; border-bottom: 1px solid transparent; }
+
+p, h1 {
+  width: 60%;
+  margin-left: auto; }
+
+h2 {
+  width: 40%;
+  float: left;
+  padding-right: 12px; }
+
+/**** Typography ****/
+
+body {
+  font-family: 'sf ui text', sans-serif;
+  font-size: 16px;
+  line-height: 24px; }
+
+p {
+  margin-bottom: 18px; }
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 36px; }
+
+h2 {
+  font-size: 20px;
+  text-align: right; }
+
+h1.left, h2.left {
+  text-align: right; }
+
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+a { text-decoration: none; }
+
+/**** Colour ****/
+
+body {
+  background-color: #FAFAFA; }
+
+hr {
+  border-color: black; }
