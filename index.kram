@@ -1,25 +1,55 @@
 ---
 title: Raphael Schindler
+hero: hero.jpg
 ---
 
-# {{ page.title }}
+<section>
+  <p>
+    Hi, I'm Raphael, and this page describes me a little.
+    &mdash;
+    I live in Ambleside, a quiet community on the outskirts of Vancouver, great
+    for walking.
+    &mdash;
+    I speak about ideas, I design websites, and I write.
+    I care about spreading ideas that make for a better world and designing
+    software that makes for a better user experience.
+  </p>
 
-![](/assets/self.jpg)
+  <div class="columns-container">
+    <div class="column-1-of-3">
+      <p>
+        I speak about ideas
+      </p>
+      <p class="button">
+        <a href="http://morning.red">
+          The morning red podcast
+        </a>
+      </p>
+    </div>
+    <div class="column-2-of-3">
+      <p>
+        I design websites
+      </p>
+      <p class="button">
+        <a href="http://radicle.io">
+          Radicle
+        </a>
+      </p>
+    </div>
+    <div class="column-3-of-3">
+      <p>
+        I write
+      </p>
+      <p class="button">
+        <a href="/scintillations.html">
+          Scintillations
+        </a>
+      </p>
+    </div>
+  </div>
 
-Hi, I'm Raphael, and this page describes me a little.
-<b>Where I live</b>: West Vancouver, British Columbia, Canada.
-<b>What I do</b>: I speak about ideas, I write, and I design software.
-<b>What I care about</b>: Spreading ideas that make for a better world and
-designing software that makes for a better user experience.
+  <p style="text-align: center">
+    &#10086;
+  </p>
+</section>
 
-## I speak about ideas
-
-I run a podcast, [Radicle Ideas](http://radicleideas.io).
-
-## I design software
-
-I run a consulting company, [Radicle Inc.](http://radicle.io)
-
-## I write
-
-You may read some of my writing at [The Morning Red](http://morning.red)

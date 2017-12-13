@@ -1,0 +1,20 @@
+---
+title: Raphael Schindler writing
+hero: writing-hero.jpg
+section: scintillations
+---
+
+<section>
+  {% for post in site.posts %}
+    <div class="post">
+      {% unless post.title == "" %}<h1>{{ post.title }}</h1>{% endunless %}
+      {{ post.content }}
+    </div>
+  {% endfor %}
+</section>
+
+<section>
+  <p style="text-align: center">
+    &#10086;
+  </p>
+</section>

@@ -10,9 +10,28 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
 
-  <body>
+  <body class="dark-background">
 
-    <main>
+    {% if page.hero %}
+    <div style="background-color: #262b2f">
+      <img class="content-width" src="/assets/{{ page.hero }}">
+    </div>
+    {% endif %}
+
+    <section class="title-bar">
+      <div class="padded-content-width">
+        {% if page.section %}
+        <a href="/">
+          Raphael Schindler
+        </a>
+          / {{ page.section | capitalize }}
+        {% else %}
+        Raphael Schindler
+        {% endif %}
+      </div>
+    </section>
+
+    <main class="light-background">
       {{ content }}
     </main>
 
