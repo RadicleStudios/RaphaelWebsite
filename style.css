@@ -1,4 +1,5 @@
-/**** Layout ****/
+/* Layout */
+
 
 * {
   box-sizing: border-box; }
@@ -6,22 +7,26 @@
 body {
   min-width: 320px; }
 
-section {
-  padding: 96px 0; }
-
 .padded-content-width {
   max-width: 1008px;
   padding-left: 24px; padding-right: 24px;
   margin-left: auto; margin-right: auto; }
+@media screen and (max-width: 959px) {
+  .padded-content-width {
+  padding-left: 12px; padding-right: 12px; } }
 
 .content-width {
   max-width: 960px;
   margin-left: auto; margin-right: auto; }
 
+.constrained-width {
+  max-width: 688px;
+  margin-left: auto; margin-right: auto; }
+
 @media screen and (min-width: 960px) {
   .columns-container {
     display: table;
-    width: 960px;
+    width: 912px;
     margin: 0 auto; }
   .column-1-of-3, .column-2-of-3, .column-3-of-3 {
     padding: 0 24px;
@@ -36,7 +41,7 @@ section {
 @media screen and (max-width: 959px) {
   .columns-container {
     display: block;
-    width: 368px;
+    width: 320px;
     margin: 0 auto; }
   .column-1-of-3, .column-2-of-3, .column-3-of-3 {
     padding: 24px;
@@ -59,17 +64,15 @@ hr {
   margin: 0 12px;
   border: 0; border-bottom: 1px solid transparent; }
 
-/**** Typography ****/
+
+
+/* Typography */
+
 
 body {
-  font-family: -apple-system, sans-serif;
+  font-family: 'helvetica neue', sans-serif;
   font-size: 16px;
   line-height: 24px; }
-
-p, h1, h2 {
-  max-width: 688px;
-  padding-left: 24px; padding-right: 24px;
-  margin-left: auto; margin-right: auto; }
 
 p + p {
   margin-top: 18px; }
@@ -87,15 +90,14 @@ h2 {
   margin-top: 48px; margin-bottom: 18px;
   font-size: 21px; }
 
-.title-bar {
-  padding-top: 24px; padding-bottom: 24px;
-  font-size: 20px; }
-
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
 a { text-decoration: none; }
 
-/**** Colour ****/
+
+
+/* Colour */
+
 
 body {
   background-color: #262b2f; }
@@ -114,16 +116,41 @@ hr {
   color: #262b2f;
   background-color: #fffaec; }
 
-/**** Misc ****/
 
-.post h1 {
-  font-size: 18px; }
 
-.post {
-  padding-top: 48px; padding-bottom: 48px;
+/* Misc */
+
+
+.title-bar {
+  padding-top: 24px; padding-bottom: 24px;
+  font-size: 20px; }
+
+.title-bar h1 {
+  padding-top: 24px; padding-bottom: 24px;
+  font-size: 48px; line-height: 48px;
+  font-weight: bold; }
+@media screen and (max-width: 959px) {
+  .title-bar h1 {
+    letter-spacing: -1px; } }
+
+.card {
+  margin-top: 48px; margin-bottom: 48px;
+  padding: 48px;
+  color: #262b2f;
+  background-color: #fffaec; }
+@media screen and (max-width: 959px) {
+  .card {
+    padding: 48px 12px; } }
+
+.card h1, .card p {
+  max-width: 688px;
   margin-left: auto; margin-right: auto; }
 
-.post + .post {
-  padding-top: 47px;
-  border-top: 1px solid #c1bead; }
+.card h1 {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase; }
 
+* {
+  letter-spacing: normal; }
+  

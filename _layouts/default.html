@@ -18,20 +18,24 @@
     </div>
     {% endif %}
 
-    <section class="title-bar">
+    <div class="title-bar">
       <div class="padded-content-width">
         {% if page.section %}
         <a href="/">
           Raphael Schindler
-        </a>
-          / {{ page.section | capitalize }}
+        </a> /<br>
+        <h1>
+          {{ page.section | capitalize }}
+        </h1>
         {% else %}
-        Raphael Schindler
+        <h1>
+          Raphael Schindler
+        </h1>
         {% endif %}
       </div>
-    </section>
+    </div>
 
-    <main class="light-background">
+    <main>
       {{ content }}
     </main>
 

@@ -1,12 +1,11 @@
 ---
 title: Raphael Schindler writing
-hero: writing-hero.jpg
 section: scintillations
 ---
 
 <section>
   {% for post in site.posts %}
-    <div class="post">
+    <div class="card content-width">
       {% unless post.title == "" %}<h1>{{ post.title }}</h1>{% endunless %}
       {{ post.content }}
     </div>

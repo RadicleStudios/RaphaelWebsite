@@ -3,8 +3,8 @@ title: Raphael Schindler
 hero: hero.jpg
 ---
 
-<section>
-  <p>
+<section class="padded-content-width">
+  <p class="constrained-width">
     Hi, I'm Raphael, and this page describes me a little.
     &mdash;
     I live in Ambleside, a quiet community on the outskirts of Vancouver, great
