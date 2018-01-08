@@ -37,7 +37,7 @@ body {
     padding-right: 23px;
     border-right: 1px solid #7f7e79; }
 }
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 899px) {
   .columns-container {
     display: block;
     width: 290px;
