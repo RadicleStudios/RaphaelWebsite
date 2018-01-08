@@ -3,9 +3,9 @@ title: Raphael Schindler writing
 section: scintillations
 ---
 
-<section>
+<section class="padded-content-width">
   {% for post in site.posts %}
-    <div class="card content-width">
+    <div class="card">
       {% unless post.title == "" %}<h1>{{ post.title }}</h1>{% endunless %}
       {{ post.content }}
     </div>
