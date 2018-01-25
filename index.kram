@@ -3,53 +3,32 @@ title: Raphael Schindler
 hero: hero.jpg
 ---
 
-<section class="padded-content-width">
-  <p class="constrained-width">
-    Hi, I'm Raphael, and this page describes me a little.
-    &mdash;
-    I live in Ambleside, a quiet community on the outskirts of Vancouver, great
-    for walking.
-    &mdash;
-    I speak about ideas, I design websites, and I write.
-    I care about spreading ideas that make for a better world and designing
-    software that makes for a better user experience.
-  </p>
+## Introduction
 
-  <div class="columns-container">
-    <div class="column-1-of-3">
-      <p>
-        I speak about ideas
-      </p>
-      <p class="button">
-        <a href="http://morning.red">
-          The morning red podcast
-        </a>
-      </p>
-    </div>
-    <div class="column-2-of-3">
-      <p>
-        I design websites
-      </p>
-      <p class="button">
-        <a href="http://radicle.io">
-          Radicle
-        </a>
-      </p>
-    </div>
-    <div class="column-3-of-3">
-      <p>
-        I write
-      </p>
-      <p class="button">
-        <a href="/scintillations.html">
-          Scintillations
-        </a>
-      </p>
-    </div>
+<div class="card" markdown="1">
+
+Hi, I'm Raphael.
+If you'll let me I'd like to tell you what I'm up to.
+
+I'm doing something new with my life.
+Never have I been so resolved to put my heart and soul into something.
+
+It's the 25th of January, 2018, and I am moving fast to produce a podcast.
+I love to play with ideas that expand the mind.
+Ideas that can strengthen the community.
+Listeners will find themselves immersed in an atmosphere of inspiration and
+appreciation.
+
+Want to check out the podcast? --- [The morning red](http://morning.red)
+
+</div>
+
+## The latest from the journal
+
+{% for post in site.posts %}
+  <div class="card">
+    {% unless post.title == "" %}<h1>{{ post.title }}</h1>{% endunless %}
+    {{ post.content }}
   </div>
-
-  <p style="text-align: center">
-    &#10086;
-  </p>
-</section>
+{% endfor %}
 

@@ -1,0 +1,80 @@
+/* © 2014 Matthew Butterick */
+
+@font-face {
+  font-family: 'Linux Libertine SC';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/LinLibertineC_Re-4.0_.1_.woff') format('woff'); }
+
+@font-face {
+  font-family: 'Linux Libertine';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/LinLibertine_Re-4.1_.8_.woff') format('woff'); }
+
+@font-face {
+  font-family: 'Linux Libertine';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/assets/LinLibertine_Bd-4.0_.2_.woff') format('woff'); }
+
+@font-face {
+  font-family: 'Linux LibertineBold Italic';
+  font-style: italic;
+  font-weight: bold;
+  src: url('/assets/LinLibertine_BI-4.0_.3_.woff') format('woff'); }
+
+@font-face {
+  font-family: 'Linux Libertine Italic';
+  font-style: italic;
+  font-weight: normal;
+  src: url('/assets/LinLibertine_It-4.0_.3_.woff') format('woff'); }
+
+
+@font-face {
+font-family: equity-text;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+src: url('/assets/equity_text_a_regular.woff') format('woff');
+}
+
+@font-face {
+font-family: equity-text;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+src: url('/assets/equity_text_a_italic.woff') format('woff');
+}
+
+@font-face {
+font-family: equity-text;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+src: url('/assets/equity_text_a_bold.woff') format('woff');
+}
+
+@font-face {
+font-family: equity-text;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+src: url('/assets/equity_text_a_bold_italic.woff') format('woff');
+}
+
+@font-face {
+font-family: equity-caps;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+src: url('/assets/equity_caps_a_regular.woff') format('woff');
+}
+
+@font-face {
+font-family: equity-caps;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+src: url('/assets/equity_caps_a_bold.woff') format('woff');
+}

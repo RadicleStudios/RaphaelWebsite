@@ -7,37 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link rel="stylesheet" type="text/css" href="/typefaces.css">
     <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
 
-  <body class="dark-background">
+  <body>
 
-    {% if page.hero %}
-    <div style="background-color: #262b2f">
-      <img class="content-width" src="/assets/{{ page.hero }}">
-    </div>
-    {% endif %}
-
-    <div class="title-bar">
-      <div class="padded-content-width">
-        {% if page.section %}
-        <a href="/">
-          Raphael Schindler
-        </a> /<br>
-        <h1>
-          {{ page.section | capitalize }}
-        </h1>
-        {% else %}
-        <h1>
-          Raphael Schindler
-        </h1>
-        {% endif %}
-      </div>
-    </div>
+    <header>
+      {% if page.section %}
+      <a href="/">
+        Raphael Schindler
+      </a> /<br>
+      <h1>
+        {{ page.section | capitalize }}
+      </h1>
+      {% else %}
+      <div class="band"><br></div>
+      <h1 class="site-title" title="Personal Website of">
+        Raphael Schindler
+      </h1>
+      {% endif %}
+    </header>
 
     <main>
       {{ content }}
     </main>
+
+    <footer>
+      &#10086;
+    </footer>
 
   </body>
 
