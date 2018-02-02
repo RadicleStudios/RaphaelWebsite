@@ -82,6 +82,7 @@ h2 {
 
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
+sc, [sc] { display: inline-block; font-family: equity-caps; text-transform: lowercase; }
 a { text-decoration: none; }
 
 .card a {
