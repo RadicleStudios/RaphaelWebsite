@@ -3,32 +3,32 @@ title: Raphael Schindler
 hero: hero.jpg
 ---
 
-## Introduction
+<div class="area" markdown="1">
+<attributes>Message updated<br>18 March 2018</attributes>
 
-<div class="card" markdown="1">
+Welcome to my website!, a place I can share what I care about.
 
-Hi, I'm Raphael.
-If you'll let me I'd like to tell you what I'm up to.
-
+Here's what I'm up to now:
 I'm doing something new with my life.
 Never have I been so resolved to put my heart and soul.
 
-It's the 25th of January, 2018, and I am moving fast to produce a podcast.
+I'm moving to produce a podcast.
 I love to play with ideas that expand the mind.
-Ideas that can strengthen the community.
+Ideas that improve community.
 Listeners will find themselves immersed in an atmosphere of inspiration and
 appreciation.
 
-Want to check out the podcast? --- [Coming soon] 
+Want to check out the podcast? --- [The Morning Red](http://morning.red).
 
-I also publish my abridged journal, and you can read it below.
+I also publish entries from my journal --- find them below.
 
 </div>
 
-## The latest from the journal
-
 {% for post in site.posts %}
   <div class="card">
+    <attributes>
+      Journal entry for<br>{{ post.date | date_to_string }}
+    </attributes>
     {% unless post.title == "" %}<h1>{{ post.title }}</h1>{% endunless %}
     {{ post.content }}
   </div>

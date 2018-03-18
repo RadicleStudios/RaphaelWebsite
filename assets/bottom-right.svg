@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="144 144 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-bottom-right);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 0.5px;
+      }
+    </style>
+    <clipPath id="clip-bottom-right">
+      <rect x="144" y="144" width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="bottom-right" class="cls-1">
+    <g id="Group_1" data-name="Group 1" transform="translate(440 489.996) rotate(180)">
+      <path id="Path_3" data-name="Path 3" class="cls-2" d="M14.952,25.2,2.9,37.292V49.135L5.966,52.2l4.885-4.887L9.817,46.281V40.146L19.872,30.122Z" transform="translate(258.134 293.789)"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-2" width="18.543" height="6.915" transform="translate(277.998 332.123) rotate(-45)"/>
+      <path id="Path_8" data-name="Path 8" class="cls-2" d="M11.5,84.689,20.485,75.7l4.921,4.887-4.1,4.1" transform="translate(252.6 261.302)"/>
+      <path id="Path_9" data-name="Path 9" class="cls-2" d="M68.471,15.777,62.552,9.82H56.419l-1.034,1.034L50.5,5.968,53.566,2.9H65.4l3.066,3.068" transform="translate(227.506 308.134)"/>
+      <line id="Line_1" data-name="Line 1" class="cls-2" y1="4.102" x2="4.1" transform="translate(291.876 341.889)"/>
+      <path id="Path_10" data-name="Path 10" class="cls-2" d="M75.87,80.587,70.985,75.7,62,84.689" transform="translate(220.107 261.302)"/>
+      <path id="Path_11" data-name="Path 11" class="cls-2" d="M84.685,64.376,75.7,55.387,80.585,50.5l4.1,4.1" transform="translate(211.292 277.513)"/>
+      <path id="Path_12" data-name="Path 12" class="cls-2" d="M10.851,14.956,5.966,19.879,2.9,16.811V5.968L5.966,2.9H16.806L28.858,14.956l-4.885,4.922L13.918,9.82h-4.1v4.1Z" transform="translate(258.134 308.134)"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-2" width="6.915" height="18.543" transform="translate(269 332.884) rotate(-45)"/>
+    </g>
+  </g>
+</svg>

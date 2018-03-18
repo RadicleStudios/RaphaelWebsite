@@ -14,28 +14,18 @@
   <body>
 
     <header>
-      {% if page.section %}
-      <a href="/">
-        Raphael Schindler
-      </a> /<br>
-      <h1>
-        {{ page.section | capitalize }}
-      </h1>
-      {% else %}
-      <div class="band"><br></div>
-      <h1 class="site-title" title="Personal Website of">
-        Raphael Schindler
-      </h1>
-      {% endif %}
+      <headpiece>The personal website of</headpiece>
+      <title>Raphael Schindler</title>
     </header>
 
     <main>
       {{ content }}
     </main>
 
-    <footer>
-      &#10086;
-    </footer>
+    <script type="text/javascript" src="/gsap--tween-lite.js"></script>
+    <script type="text/javascript" src="/gsap--css-plugin.js"></script>
+    <script type="text/javascript" src="/gsap--css-rule-plugin.js"></script>
+    <script type="text/javascript" src="/main.js"></script>
 
   </body>
 

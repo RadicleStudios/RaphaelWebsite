@@ -1,0 +1,113 @@
+---
+layout: ""
+---
+
+/* Layout */
+
+
+* { box-sizing: border-box; }
+
+body > header { margin: 0 auto; }
+body > main { margin: 0 auto; }
+body > footer { margin: 0 auto; }
+
+.card, .area {
+  position: relative;
+  margin-left: auto; margin-right: auto; padding: 18px; }
+
+.card + .card, .card + .area, .area + .card { margin-top: 36px; }
+
+
+
+/* Typography */
+
+
+body {
+  font-family: equity-text, serif;
+  font-size: 17px;
+  line-height: 24px; }
+
+headpiece {
+  display: block;
+  text-align: center;
+  font-family: equity-caps;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: lowercase; }
+
+title {
+  display: block;
+  text-align: center;
+  font-size: 33px;
+  line-height: 36px; }
+
+attributes {
+  float: right;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: italic;
+  text-align: right;
+  padding-left: 18px;
+  padding-bottom: 18px; }
+
+h1 {
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: equity-caps;
+  font-size: 17px;
+  text-transform: lowercase; }
+
+p + h2 {
+  margin-top: 36px; }
+
+p + p, h2 + p {
+  margin-top: 15px; }
+
+h1 + p {
+  margin-top: 18px; }
+
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+sc, [sc] { display: inline-block; font-family: equity-caps; text-transform: lowercase; }
+a { text-decoration: none; }
+
+.card a {
+  font-family: equity-caps, serif;
+  text-transform: lowercase;
+  background-color: #e5e3df;
+  padding: 0 4px; }
+
+
+
+/* Colour */
+
+
+body {
+  color: #fffaec;
+  background-color: #262b2f; }
+
+a { color: #6f6fef; }
+
+.card, .header {
+  color: #262b2f;
+  background-color: #fffaec; }
+
+.area {
+  color: #fffaec;
+  border: 1px solid #fffaec; }
+
+.band {
+  background-color: #fffaec; }
+
+
+
+/* Misc */
+
+
+.motif-row {
+  font-size: 24px; line-height: 24px; height: 24px;
+  overflow: hidden; text-align: justify; }
+
